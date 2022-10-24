@@ -19,5 +19,5 @@ async.forever(function (StartSync) {
       shell.exec("systemctl restart api.velascan.service");
     }
     StartSync();
-  }, 1000);
+  }, 5000);
 });
